@@ -1,0 +1,35 @@
+#dialog {position:absolute; width:525px; padding:0px; z-index:200; background:#fff; font-family:Verdana, Arial, Helvetica; font-size:14px; }
+#dialog-header {display:block; position:relative; padding:3px 6px 7px; height:14px; font-size:14px; font-weight:bold}
+#dialog-title {float:left}
+#dialog-close {float:right; cursor:pointer; margin:3px 3px 0 0; height:11px; width:11px; background:url(../images/jmodal/close.html) no-repeat}
+#dialog-content {display:block; padding:6px; min-height:160px; color:#666666; font-size:13px;}
+#dialog-content-inner { min-height:128px; }
+#dialog-mask {position:absolute; top:0; left:0; height:1600px; width:100%;  z-index:100}
+#mascheratrasp{cursor: wait; height:1600px; width:100%; filter:alpha(opacity=65);-moz-opacity:0.65; opacity:0.65; z-index:100}
+#mascheratrasp img{ z-index:100; filter:alpha(opacity=0); }
+#dialog-button-container { text-align:center; margin:2px 6px 6px 2px; }
+#dialog-button { font-weight:bold; font-size:1.1em; font-family:Arial, sans-serif; padding:2px 5px 2px 5px; }
+.error {background:#fff url(../images/jmodal/e_bg.html) bottom right no-repeat; border:1px solid #924949; border-top:none}
+.errorheader {background:url(../images/jmodal/e_hd.html) repeat-x; color:#6f2c2c; border:1px solid #924949; border-bottom:none}
+.errorbutton { background-color:#9F4C4C; border:1px solid #924949; color:#fff; }
+.warning {background:#fff url(../images/jmodal/w_bg.html) bottom right no-repeat; border:1px solid #c5a524; border-top:none}
+.warningheader {background:url(../images/jmodal/w_hd.html) repeat-x; color:#957c17; border:1px solid #c5a524; border-bottom:none}
+.warningbutton { background-color:#eFcC47; border:1px solid #957C17; color:#957C17; }
+.alert {background:#fff url(../images/jmodal/w_bg.html) bottom right no-repeat; border:1px solid #c5a524; border-top:none}
+.alertheader {background:url(../images/jmodal/w_hd.html) repeat-x; color:#957c17; border:1px solid #c5a524; border-bottom:none}
+.alertbutton { background-color:#eFcC47; border:1px solid #957C17; color:#957C17; }
+.success {background:#fff url(../images/jmodal/s_bg.html) bottom right no-repeat; border:1px solid #60a174; border-top:none}
+.successheader {background:url(../images/jmodal/s_hd.html) repeat-x; color:#3c7f51; border:1px solid #60a174; border-bottom:none}
+.successbutton { background-color:#3c7f51; border:1px solid #fff; color:#fff; }
+.prompt {background:#fff url(../images/jmodal/p_bg.html) bottom right no-repeat; border:1px solid #4f6d81; border-top:none}
+.promptheader {background:url(../images/jmodal/p_hd.html) repeat-x; color:#355468; border:1px solid #4f6d81; border-bottom:none}
+.promptbutton { background-color:#4F6D81; border:1px solid #fff; color:#fff; }
+.view {background:#FFE9F6; border:1px solid #4f6d81; border-top:none}
+.viewheader {background:#b00c6b;color:#FFFFFF; border:1px solid #4f6d81; border-bottom:none}
+.viewbutton { display:none; background-color:#4F6D81; border:1px solid #fff; color:#fff; }
+.carrello {background:#FFE9F6; border:1px solid #4f6d81; border-top:none}
+.carrelloheader {background:#b00c6b;color:#FFFFFF; border:1px solid #4f6d81; border-bottom:none}
+.carrellobutton { display:none; background-color:#4F6D81; border:1px solid #fff; color:#fff; }
+.scelta {background:#FFE9F6; border:1px solid #4f6d81; border-top:none}
+.sceltaheader {background:#b00c6b;color:#FFFFFF; border:1px solid #4f6d81; border-bottom:none}
+.sceltabutton { display:none; background-color:#4F6D81; border:1px solid #fff; color:#fff; }
