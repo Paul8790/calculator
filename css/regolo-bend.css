@@ -416,6 +416,7 @@ label {
 }
 #parziale {
 	position:absolute;
+	
 	width:25rem;
 	top: 18rem;
 	right: 0;
@@ -429,7 +430,7 @@ label {
     background: url(../images/bg-bend.png) no-repeat;
     background-size:100%; 
     height:200px;
-    display: flex;
+    display: none;
 }
 .header_line h1{
     margin: 2% 2% 3% 2%;
