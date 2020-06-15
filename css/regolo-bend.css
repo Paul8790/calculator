@@ -86,12 +86,12 @@ section .avia_textblock{
 	border-bottom:1px solid #1d70a2;
 }
 #risultati table th {
-	font-size: 1.3rem;
+	font-size: 14px;
 	font-weight:bold;
 	text-align:left;
 }
 #risultati table td {
-	font-size:1rem;
+	font-size:14px;
 	text-align:center;
 }
 #risultati table td a {
