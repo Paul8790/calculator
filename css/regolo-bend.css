@@ -100,7 +100,7 @@ section .avia_textblock{
 }
 
 #risultati table td.selected {
-	font-size: 1.3rem;
+	font-size: 14px;
 	font-weight: bold;
 	background: #00d0e7;
 }
