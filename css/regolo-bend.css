@@ -297,7 +297,7 @@ section p {
     background: url(../images/bg-bend.png) no-repeat;
     background-size:100%; 
     height:100px;
-    display: flex;
+    display: none;
     background-color: #E0E0E0; 
     margin-bottom: 10px;
 }
